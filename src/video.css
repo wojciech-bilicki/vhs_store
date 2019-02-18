@@ -1,0 +1,57 @@
+
+
+
+.video {
+  font-family: 'Russo One', sans-serif;
+  display: flex;
+  max-width: 30%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  padding: 16px;
+  border: 2px solid #9c27b0;
+  margin-top: 32px;
+  border-radius: 8px;
+}
+
+.video__cover {
+  max-width: 275px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+.video__title {
+  text-align: center;
+}
+
+.video__property {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.video__property > span:nth-child(2) {
+  text-align: right;
+  width: 33%;
+  font-size: 18px;
+}
+
+.video__description {
+  text-align: justify;
+}
+
+.video__rent {
+  padding: 8px 16px;
+  color: white;
+  border: none;
+  font-size: 1.5em;
+  margin-top: 8px;
+  background: linear-gradient(180deg, rgba(217,18,230,1) 0%, rgba(0,121,255,1) 100%);
+}
+
+.video__rent:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
